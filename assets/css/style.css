@@ -44,7 +44,7 @@ nav{position: absolute;
 background-color: #ffffff;
 width: 100%;
 left: 0;
-padding: 0 1 rem;
+padding: 0 1rem;
 box-shadow: 0 2px 2px  #3a3a3a;
 display: none;
 top: 100%;}
@@ -61,9 +61,21 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: orange;
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
+
+#social-networks svg {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -82,7 +94,7 @@ footer {
     .nav-toggle-label {
         display: none;
     }
-    
+
 #logo {
     font-size: 200%;
     line-height: 75px;
